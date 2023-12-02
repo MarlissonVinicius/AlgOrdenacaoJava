@@ -46,6 +46,6 @@ public class gerarNums {
     }
 
     public static void main(String[] args) {
-        System.out.println(aleatorio(1000));
+        
     }
 }
