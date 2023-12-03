@@ -1,6 +1,9 @@
 Organizar as classes em arquivos e diretórios diferentes ✔
+
 Garantir que o empacotamento e a importação de todos as classes esteja correta ✔
+
 Desenvolver um arquivo index que acionará todos os outros métodos e atributos:
 	chamar classe gerarNum e todos os seus métodos corretamente ✔
 	chamar classe algsOrdenacao e todos os seus métodos corretamente ✔
-Cronometrar o tempo da organização com o algoritmo 
+	
+Cronometrar o tempo da organização com os algoritmos

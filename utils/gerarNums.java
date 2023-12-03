@@ -3,7 +3,7 @@ package utils;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class gerarNums {
+public class GerarNums {
 
     private int sortear(int min, int max) {
         Random random = new Random();
@@ -38,14 +38,11 @@ public class gerarNums {
         ArrayList<Integer> listSaida = new ArrayList<>();
 
         for (int i = 0; i < tamanho; i++) {
-            int num = sortear(-tamanho, tamanho);
+            int num = sortear(0, tamanho);
             listSaida.add(num);
         }
 
         return listSaida;
     }
 
-    public static void main(String[] args) {
-        
-    }
 }

@@ -1,0 +1,8 @@
+Cronometrar o tempo da organização com os algoritmos ✔
+
+adicionar um método de saída de dados já organizados ✔ 
+
+desenvolver um modo mais lógico de reduzir a repetição de código:
+    utilizar o for para gerar 3 listas com tamanhos diferentes✔ 
+    utilizar a iteração de um array com os nomes dos códigos, juntamente com o switch case, definir qual algoritmo será chamado ✔
+    desenvolver o algoritmo selectionSort em java ✔ 

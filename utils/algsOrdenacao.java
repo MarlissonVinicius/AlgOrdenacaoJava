@@ -2,7 +2,8 @@ package utils;
 
 import java.util.ArrayList;
 
-    public class algsOrdenacao {
+    public class AlgsOrdenacao {
+        
         public ArrayList<Integer> bubble(ArrayList<Integer> listaEntrada) {
 
             boolean houveTroca = true;
@@ -29,7 +30,24 @@ import java.util.ArrayList;
             return listaEntrada;
         }
 
-    public static void main(String[] args) {
+        public ArrayList<Integer> selection(ArrayList<Integer> listaEntrada){
+            int aux;
+            int menor;
         
-    }
+            for (int i = 0; i < listaEntrada.size() - 1; i++) {
+                menor = i;
+        
+                for (int j = i + 1; j < listaEntrada.size(); j++) {
+                    if (listaEntrada.get(j) < listaEntrada.get(menor)) {
+                        menor = j;
+                    }
+                }
+        
+                aux = listaEntrada.get(menor);
+                listaEntrada.set(menor, listaEntrada.get(i));
+                listaEntrada.set(i, aux);
+            }
+        
+            return listaEntrada;
+        }
 }
